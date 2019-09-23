@@ -51,6 +51,9 @@ body{
 }
 main {
     background: rgb(161, 165, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     text-align: center;
@@ -58,6 +61,8 @@ h1{
     font-size: 6vw;
     background: rgb(119, 52, 52);
     padding: 1vw;
+    text-shadow: 2px 1px #fff;
+    border: 0.5vw solid rgb(29, 28, 28);
 }
 nav{
     background: rgba(5, 10, 78, 0.253);
@@ -93,12 +98,12 @@ nav{
     height: 25vw;
     border-radius: 5vw;
 }
-#proyect-box {
+.proyect-box {
     display: flex;
     
     flex-wrap: wrap;
 }
-#proyect-box .proyect {
+.proyect-box .proyect {
     background: rgb(101, 104, 126);
     margin: 1vw;
     margin-left: 30vw;
@@ -108,17 +113,36 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Saira Stencil One', cursive;
 }
 .element {
     margin: 1vw;
 }
-#proyect-box .proyect .proyect-avatar {
-    width: 10vw;
-    height: 10vw;
+
+.proyect-box .proyect .proyect-avatar {
+    width: 25vw;
+    height: 25vw;
     border-radius: 1vw;
 }
 #contact {
     width: 30vw;
-    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#send {
+    border-radius: 5vw;
+    height: 3vw;
+    width: 10vw;
+    background: #fff;
+}
+#send:hover {
+    background: rgb(114, 108, 108);
+    height: 2.7vw;
+    width: 9.7vw;
+}
+.entry {
+    border-radius: 1vh;
+    width: 15vw;
+    height: 2vw;
 }
