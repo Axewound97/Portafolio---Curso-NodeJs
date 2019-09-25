@@ -76,6 +76,7 @@ nav{
     color: #fff;
     padding: 1vw 3vw;
     text-decoration: none;
+    border-radius: 1vw;
 }
 .nav-var:hover {
     background: #fff;
