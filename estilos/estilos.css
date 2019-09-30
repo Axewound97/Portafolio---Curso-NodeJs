@@ -148,6 +148,10 @@ nav{
     width: 15vw;
     height: 2vw;
 }
+#asd {
+    border-radius: 25vw;
+    color: aqua;
+}
 #redd {
     padding: 1vw;
     display: flex;
