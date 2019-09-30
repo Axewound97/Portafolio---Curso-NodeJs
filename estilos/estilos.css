@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 body{
-    background: rgb(238, 236, 236);
+    background: rgb(161, 165, 197);
 }
 main {
     background: rgb(161, 165, 197);
@@ -59,7 +59,7 @@ h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 6vw;
-    background: rgb(60, 143, 238);
+    background: rgb(125, 172, 226);
     padding: 1vw;
     text-shadow: 2px 1px #fff;
     border: 0.2vw solid rgb(29, 28, 28);
@@ -148,9 +148,9 @@ nav{
     width: 15vw;
     height: 2vw;
 }
-#asd {
+footer {
     border-radius: 25vw;
-    color: aqua;
+    background: rgba(141, 209, 194, 0.253);
 }
 #redd {
     padding: 1vw;
