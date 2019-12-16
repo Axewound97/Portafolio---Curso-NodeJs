@@ -1,0 +1,11 @@
+body {
+    max-width: 800px;
+    margin: auto;
+}
+h1 {
+    color: blue;
+}
+
+fieldset {
+    margin: 20px;
+}
